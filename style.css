@@ -125,11 +125,11 @@ a {
 
 .experience2 .grid {
   display: grid;
-  grid-template-columns: 4fr 3fr;
+  grid-template-columns: 3fr 4fr;
   align-items: center;
   gap: 70px;
   margin: 20px 0;
-  padding: 20px;
+  padding: 80px 0;
 }
 
 .experience2 h1 {
@@ -144,6 +144,7 @@ a {
   font-family: 'inter';
   letter-spacing: 0.2em;
   line-height: 32px;
+  padding: 40px 0;
 }
 
 .experience2 .grid h3 {
@@ -158,6 +159,7 @@ a {
 .experience2 img {
   border-radius: 100%;
   padding: 0 20px;
+  flex-wrap: wrap;
 }
 
 .experience2 p {
@@ -417,6 +419,10 @@ a {
   color: black;
 }
 
+.magazine .input .btn:hover {
+  cursor: pointer;
+}
+
 .btn0::placeholder {
   color: white;
 }
@@ -427,6 +433,10 @@ footer {
   color: white;
   overflow-y: hidden;
   padding: 20px 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 footer .container {
@@ -458,6 +468,124 @@ footer li {
 
 footer .ref1 a {
   color: white;
+}
+
+footer .ref1 li {
+  list-style-type: none;
+  padding: 40px 0;
+}
+
+footer .ref1 .fa-brands {
+  padding: 0 4px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 576px) {
+  .navbar ul, .nav2 {
+    display: none;
+  }
+
+  .experience1 {
+    padding-top: 80px;
+  }
+
+  .experience1 .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience1 h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .experience2 .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .customer .grid {
+    grid-template-columns: 1fr;
+    padding: 60px 40px;
+  }
+
+  .experience3 .grid {
+    grid-template-columns: 1fr;
+    padding: 40px 40px;
+  }
+
+  .vendor .grid {
+    grid-template-columns: 1fr;
+    padding: 60px 40px;
+  }
+
+  .magazine .flex {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+
+  .magazine .input {
+    width: 340px;
+  }
+
+  footer .grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 776px) {
+  .experience1 .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience2 .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience3 .grid {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+    padding-top: 40px;
+  }
+
+  .magazine .flex {
+    flex-direction: column;
+    padding: 30px 30px;
+  }
+
+  .magazine .input {
+    width: 340px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 577px) {
+  .vendor .grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 30px;
+  }
+
+  footer .grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 20px;
+  }
+
+  .customer .grid {
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 30px;
+  }
+
+  .nav2 {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 776px) {
+  .magazine .flex {
+    gap: 5px;
+  }
+
+  .magazine img {
+    padding: 0 30px;
+  }
 }
 
 
