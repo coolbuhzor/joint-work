@@ -4,23 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <script src="https://unpkg.com/react@17.0.1/umd/react.production.min.js"></script>
+
+    <script src="https://unpkg.com/react-dom@17.0.1/umd/react-dom.production.min.js"></script>
   </head>
   <body>
     <div class="navbar">
       <div class="container flex">
-          <img src="img/vasiti.png" alt="vasiti">
-          <div>
-            <ul>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">STORIES</a></li>
-              <li><a href="#">CONTACT</a></li>
-              <li><a href="#">LOG IN</a></li>
-              <li><a href="#" class="signup">SIGN UP</a></li>
-            </ul>
-          </div>
+        <img src="img/vasiti.png" alt="vasiti" />
+        <div>
+          <ul>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">STORIES</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">LOG IN</a></li>
+            <li><a href="#" class="signup">SIGN UP</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -41,20 +50,40 @@
       <div class="container grid">
         <div>
           <h1>Amazing Experiences from Our Wonderful Customers</h1>
-          <p>Here is what customers and vendors are saying about us, you can share your stories with us too.</p>
+          <p>
+            Here is what customers and vendors are saying about us, you can
+            share your stories with us too.
+          </p>
         </div>
-          <img src="img/first-section-img.png" alt="">
+        <img src="img/first-section-img.png" alt="" />
       </div>
     </section>
 
     <section class="experience2">
       <div class="container grid">
-        <img src="img/Two-ladies.jpg" alt="">
+        <img src="img/Two-ladies.jpg" alt="" />
         <div class="text">
           <h1>Tolu & Joy’s Experience</h1>
           <h3>CUSTOMER</h3>
-          <p>I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!</p>
+          <p>
+            I had the best experience shopping with vasiti. Usability of the
+            website was great, very good customer service, an all round great
+            experience. I would definately be coming back! I had the best
+            experience shopping with vasiti. Usability of the website was great,
+            very good customer service, an all round great experience. I would
+            definately be coming back!
+          </p>
           <h2>SHARE YOUR OWN STORY</h2>
+
+          <div
+            id="widget"
+            class="widget-instance"
+            data-button-text="Click here"
+          >
+            <progress class="progress is-small is-primary" max="100">
+              0%
+            </progress>
+          </div>
         </div>
       </div>
     </section>
@@ -62,40 +91,82 @@
     <section class="customer">
       <div class="container grid">
         <div>
-          <img src="img/joseph-ike.png" alt="">
+          <img src="img/joseph-ike.png" alt="" />
           <h1>Joseph Ike</h1>
           <h4>ikeja <span id="cus">customer</span></h4>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="img/adeola.png" alt="">
+          <img src="img/adeola.png" alt="" />
           <h1>Adetola Fashina</h1>
           <h4>ibadan <span id="cus">customer</span></h4>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="img/emma.png" alt="">
+          <img src="img/emma.png" alt="" />
           <h1>Emmanuel Fayemi</h1>
           <h4>In Akoka <span id="cus">customer</span></h4>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="img/chisom.png" alt="">
+          <img src="img/chisom.png" alt="" />
           <h1>Chisom Obilor</h1>
           <h4>In Magodo <span id="cst">VENDOR</span></h4>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="img/adunoluea.png" alt="">
+          <img src="img/adunoluea.png" alt="" />
           <h1>Adunoluwa Adeyemi</h1>
           <h4>Iwo Road <span id="cst">VENDOR</span></h4>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="img/chidi.png" alt="">
+          <img src="img/chidi.png" alt="" />
           <h1>Chidi Okeke</h1>
           <h4>ikeja <span id="cst">VENDOR</span></h4>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
       </div>
     </section>
@@ -105,50 +176,99 @@
         <div>
           <h1>Josiah’s Experience</h1>
           <h3>VENDOR</h3>
-          <p>I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, an all round great experience. I would definately be coming back!</p>
+          <p>
+            I had the best experience shopping with vasiti. Usability of the
+            website was great, very good customer service, an all round great
+            experience. I would definately be coming back! I had the best
+            experience shopping with vasiti. Usability of the website was great,
+            very good customer service, an all round great experience. I would
+            definately be coming back!
+          </p>
           <h2>SHARE YOUR OWN STORY</h2>
         </div>
-        <img src="img/woman-shoppingbag-card.png" alt="">
+        <img src="img/woman-shoppingbag-card.png" alt="" />
       </div>
     </section>
 
     <section class="vendor">
       <div class="container grid">
         <div>
-          <img src="https://randomuser.me/api/portraits/men/21.jpg" alt="">
+          <img src="https://randomuser.me/api/portraits/men/21.jpg" alt="" />
           <h2>Temi Obadofin</h2>
           <h3>VENDOR</h3>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="">
+          <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="" />
           <h2>Promise Ejiofor</h2>
           <h3>VENDOR</h3>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="">
+          <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="" />
           <h2>Feyisola Arinola</h2>
           <h3>VENDOR</h3>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="">
+          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="" />
           <h2>Karen Ibeh</h2>
           <h3>VENDOR</h3>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="">
+          <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="" />
           <h2>Oluchi Uzor</h2>
           <h3>VENDOR</h3>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
         <div>
-          <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="">
+          <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="" />
           <h2>Amos Okafor</h2>
           <h3>VENDOR</h3>
-          <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.</p>
+          <p>
+            Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
+            qui esse pariatur duis deserunt mollit dolore cillum minim tempor
+            enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut
+            voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex
+            duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt
+            mollit dolore cillum minim tempor enim.
+          </p>
         </div>
       </div>
     </section>
@@ -157,15 +277,24 @@
       <div class="container flex">
         <div class="mag-text">
           <h1>Be a member of our community 🎉</h1>
-          <p>We’d make sure you’re always first to know what’s happening on Vasiti—thus, the world.</p>
+          <p>
+            We’d make sure you’re always first to know what’s happening on
+            Vasiti—thus, the world.
+          </p>
           <div class="input">
             <form>
-              <input type="email" name="email" placeholder="enter your email address" class="btn0" required>
-           </form>
-           <input type="submit" name="button" value="SUBSCRIBE" class="btn">
+              <input
+                type="email"
+                name="email"
+                placeholder="enter your email address"
+                class="btn0"
+                required
+              />
+            </form>
+            <input type="submit" name="button" value="SUBSCRIBE" class="btn" />
           </div>
         </div>
-        <img src="img/mobile-phone.png" alt="">
+        <img src="img/mobile-phone.png" alt="" />
       </div>
     </section>
 
