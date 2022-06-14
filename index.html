@@ -347,5 +347,23 @@
         </div>
       </div>
     </footer>
+    <script src="//js-widgets.github.io/widget-registry-boilerplate/widget-registry/production/loader.js"></script>
+    <script>
+      document.loadWidgets([
+        {
+          instanceId: "widget",
+          language: "en",
+          onRenderFinish: (domElement) =>
+            console.debug("The widget has finished rendering: ", domElement),
+          origin: "https://coolbuhzor.github.io",
+          renderFunctionName: "renderExamplePaymentWidget",
+        },
+      ]);
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
   </body>
 </html>
